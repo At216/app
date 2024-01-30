@@ -1,3 +1,9 @@
 self.addEventListener("install", e=> {
-    console.log('Install!');
+    e.waitUntil(
+        caches.open("staticthingy").then(cache => {
+            return cache.addAll(["."]);
+        })
+    );
 });
+
+//Check "."?
