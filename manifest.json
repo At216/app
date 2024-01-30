@@ -1,0 +1,7 @@
+{
+    "name": "app",
+    "short_name": "A",
+    "start_url": ".",
+    "background_color": "#6ddcdb1",
+    "theme_color": "#009578"
+}
